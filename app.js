@@ -12,7 +12,9 @@ let divContainer = document.getElementsByName("div_container")[0];
 let imgd = document.getElementById("img-prueba");
 
 
-btnNo.addEventListener('mouseenter', function(e) { moverposicionrandom(e.target) });
+btnNo.addEventListener('mouseenter', function(e) { 
+    moverposicionrandom(e.target) 
+});
 
 btnSi.addEventListener('click', function(e) {
     alert("Sabía que ibas decir que sí");
